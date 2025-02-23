@@ -21,7 +21,7 @@ python diffract_plot.py -f dftmp.dat [OPTIONS]
 | Argument       | Description                                      | Example                        |
 |---------------|--------------------------------------------------|--------------------------------|
 | `-f, -file, --filename` | Input data file (**required**)              | `-f data.txt`                  |
-| `-c, -col, --columns`   | Columns to plot (`r,t,a` or full names)         | `--columns=r,a`                |
+| `-c, -col, -cols, --columns`   | Columns to plot (`r,t,a` or full names)         | `--columns=r,a`                |
 | `-xmin, --xmin`      | Minimum x-axis value                            | `--xmin 0.5`                   |
 | `-xmax, --xmax`      | Maximum x-axis value                            | `--xmax 2.0`                   |
 | `-ymin, --ymin`      | Minimum y-axis value                            | `--ymin 0.0`                   |
