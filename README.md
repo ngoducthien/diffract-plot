@@ -11,12 +11,12 @@ This script quickly plots diffraction efficiency data (Reflection, Transmission,
 - Automatically saves the plot as a `.png` file.
 
 
-# Usage
+## Usage
 ```bash
 python diffract_plot.py -f dftmp.dat [OPTIONS]
 ```
 
-# Arguments
+## Arguments
 
 | Argument       | Description                                      | Example                        |
 |---------------|--------------------------------------------------|--------------------------------|
@@ -29,7 +29,7 @@ python diffract_plot.py -f dftmp.dat [OPTIONS]
 | `--title`     | Plot title (optional)                           | `--title "My Plot"`            |
 
 
-# Examples
+## Examples
 - Plot all columns (default behavior)
 ```bash
 python diffract_plot.py -f data.txt
@@ -45,5 +45,5 @@ python diffract_plot.py -f data.txt --columns=r,a
 python diffract_plot.py -f data.txt --xmin 0.5 --xmax 2.0 --ymin 0.1 --ymax 0.9 --title "Efficiency Spectrum of Ag-based device"
 ```
 
-# Output
+## Output
 The script saves the figure as <input_filename>_plot.png in the same directory.
