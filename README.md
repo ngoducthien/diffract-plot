@@ -20,13 +20,13 @@ python diffract_plot.py -f dftmp.dat [OPTIONS]
 
 | Argument       | Description                                      | Example                        |
 |---------------|--------------------------------------------------|--------------------------------|
-| `-f, --filename` | Input data file (**required**)              | `-f data.txt`                  |
-| `--columns`   | Columns to plot (`r,t,a` or full names)         | `--columns=r,a`                |
-| `--xmin`      | Minimum x-axis value                            | `--xmin 0.5`                   |
-| `--xmax`      | Maximum x-axis value                            | `--xmax 2.0`                   |
-| `--ymin`      | Minimum y-axis value                            | `--ymin 0.0`                   |
-| `--ymax`      | Maximum y-axis value                            | `--ymax 1.0`                   |
-| `--title`     | Plot title (optional)                           | `--title "My Plot"`            |
+| `-f, -file, --filename` | Input data file (**required**)              | `-f data.txt`                  |
+| `-c, -col, --columns`   | Columns to plot (`r,t,a` or full names)         | `--columns=r,a`                |
+| `-xmin, --xmin`      | Minimum x-axis value                            | `--xmin 0.5`                   |
+| `-xmax, --xmax`      | Maximum x-axis value                            | `--xmax 2.0`                   |
+| `-ymin, --ymin`      | Minimum y-axis value                            | `--ymin 0.0`                   |
+| `-ymax, --ymax`      | Maximum y-axis value                            | `--ymax 1.0`                   |
+| `-title, --title`     | Plot title (optional)                           | `--title "My Plot"`            |
 
 
 ## Examples
