@@ -47,7 +47,7 @@ parser.add_argument(
 )
 
 parser.add_argument(
-    '--columns', '-c', '-col',
+    '--columns', '-c', '-col', '-cols',
     help="Columns to plot (comma-separated: r,a or reflection,absorption)",
     type=str,
     default="r,t,a"
